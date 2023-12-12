@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "check for osu_p2p_lat_c0.txt",
+      "setup": "",
+      "run": "test -f */osu_p2p_lat_c0.txt && echo 1",
+      "input": "",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "check for osu_p2p_bw_c0.txt",
+      "setup": "",
+      "run": "test -f */osu_p2p_bw_c0.txt && echo 1",
+      "input": "",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "check for osu_p2p_c0.png",
+      "setup": "",
+      "run": "test -f */osu_p2p_c0.png && echo 1",
+      "input": "",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "check for osu_p2p_c112.png",
+      "setup": "",
+      "run": "test -f */osu_p2p_c112.png && echo 1",
+      "input": "",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "check for osu_p2p_gpu_c112.png",
+      "setup": "",
+      "run": "test -f */osu_p2p_gpu_c112.png && echo 1",
+      "input": "",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
