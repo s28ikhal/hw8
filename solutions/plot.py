@@ -75,4 +75,4 @@ ax2.legend()
 
 # plt.savefig("mvm_ji.png",bbox_inches='tight',dpi=100)
 plt.tight_layout()
-plt.savefig(f"osu_p2p{mode}_c{core}.png")
+plt.savefig(f"osu_p2p_{'' if mode != 'gpu' else mode}_c{core}.png")
